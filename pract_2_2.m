@@ -1,0 +1,23 @@
+a = [input('a[1,1]=') input('a[1,2]='); input('a[2,1]=') input('a[2,2]=')];
+b = [input('b[1,1]=') input('b[1,2]='); input('b[2,1]=') input('b[2,2]=')];
+c = [2 2 2;2 5 -3];
+f = [1 -1;-3 -5;-2 2];
+g = [-4 1 3;-3 -2 1];
+h = [-4 2 1;0 2 2;0 -2 2];
+
+A3 = 3*a;
+A_B = a-b;
+A3_2B = A3+(2*b);
+FT = f';
+AB = a*b;
+BA = b*a;
+FC = f*c;
+GH = g*h;
+disp('3*a:');disp(A3);
+disp('a-b:');disp(A_B);
+disp('3*a+2*b:');disp(A3_2B);
+disp('Ft:');disp(FT);
+disp('a*b:');disp(AB);
+disp('b*a:');disp(BA);
+disp('f*c:');disp(FC);
+disp('g*h:');disp(GH);
